@@ -1,0 +1,21 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+	<groupId>com.pvthuan</groupId>
+	<artifactId>root-module</artifactId>
+	<version>${app.version}</version>
+	<packaging>pom</packaging>
+
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <app.version>1.0</app.version>
+        <spring.version>4.2.3.RELEASE</spring.version>
+     </properties>
+     <modules>
+		<module>chap2</module>
+		<module>chap3</module>
+		<module>chap4</module>
+		<module>chap5</module>
+     </modules>
+</project>
